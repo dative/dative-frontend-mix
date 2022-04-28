@@ -2,7 +2,6 @@
   "name": "dative-frontend-mix",
   "version": "1.0.0",
   "description": "Dative Front-End Starter Tool",
-  "main": "index.js",
   "scripts": {
     "clean": "rimraf public",
     "dev:mix": "cross-env NODE_ENV=development npx mix watch",
