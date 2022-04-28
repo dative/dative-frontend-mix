@@ -213,7 +213,7 @@ Before submitting your contribution, please make sure to take a moment and read 
 
 ### Notes on Dependencies
 
-This project aims to deliver a lightweight website, and this includes being aware of the number of npm dependencies and their size.
+This project starter aims to deliver a lightweight website, and this includes being aware of the number of npm dependencies and their size.
 
 **Think before adding a dependency.** Is it worth it? Can it be achieve with a few lines of code instead?
 
