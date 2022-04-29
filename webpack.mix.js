@@ -10,6 +10,8 @@ mix.version()
 mix.twig("src/templates", "public")
 
 mix.ts("src/js/app.ts", "public/js")
+mix.ts("src/js/utils/lazysizes-wrapper.ts", "public/js")
+
 mix.postCss("src/css/app.css", "public/css")
 
 
