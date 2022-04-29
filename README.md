@@ -34,9 +34,9 @@ While working on this project, here are some helpful advice when choosing the im
 
 [Conventions](#conventions)
 
-[Lean on Tailwind](#lean-on-tailwind)
+[Lean on Tailwind](TAILWIND.md)
 
-[Use TWIG to encapsulate page components](#use-twig-to-encapsulate-page-components)
+[Use TWIG to encapsulate page components](TWIG.md)
 
 ### Conventions
 
