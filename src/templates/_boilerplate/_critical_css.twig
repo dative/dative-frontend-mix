@@ -7,7 +7,6 @@
 # so don't include the critical CSS, and load the full stylesheet(s) synchronously
 #}
 <!--#ifexpr="$HTTP_COOKIE=/critical\-css\={{cssHash}}/"-->
-{{ craft.vite.script("src/js/app.ts", false) }}
 <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
 <!--#else-->
 {#
@@ -17,6 +16,5 @@
 <script>
 	Cookie.set("critical-css", "{{ cssHash }}", { expires: "7D",secure: true });
 </script>
-{{ craft.vite.includeCriticalCssTags() }}
 <link href="{{ mix('/css/app.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
 <!--#endif-->
