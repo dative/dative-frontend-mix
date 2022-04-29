@@ -26,7 +26,7 @@ This will build the production version of the site inside the `public` directory
 
 While working on this project, here are some helpful advice when choosing the implementation path:
 
-[Convetions](#convetions)
+[Convetions](#conventions)
 
 [Lean on Tailwind](#lean-on-tailwind)
 
