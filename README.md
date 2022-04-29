@@ -2,14 +2,20 @@
 
 Front-end tool to build static site from [Twig](https://twig.symfony.com) templates, built using [Laravel Mix](https://laravel-mix.com). It uses [TailwindCSS](https://tailwindcss.com) for utility first styling.
 
-It uses Node v16.14.2 (I recommend using [NVM](https://github.com/nvm-sh/nvm))
+It uses Node v16 (I recommend using [NVM](https://github.com/nvm-sh/nvm))
 
-## Usage
+## Getting Started
 
-After cloning, install the dependencies using:
+1. Copy this repo into a new project folder:
 
 ```bash
-$ npm install
+npx degit dative/dative-frontend-mix new-project
+```
+
+2. Install the dependencies:
+
+```bash
+cd new-project && npm install
 ```
 
 ### Commands
@@ -26,7 +32,7 @@ This will build the production version of the site inside the `public` directory
 
 While working on this project, here are some helpful advice when choosing the implementation path:
 
-[Convetions](#conventions)
+[Conventions](#conventions)
 
 [Lean on Tailwind](#lean-on-tailwind)
 
