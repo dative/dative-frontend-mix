@@ -2,7 +2,7 @@
 
 Front-end tool to build static site from [Twig](https://twig.symfony.com) templates, built using [Laravel Mix](https://laravel-mix.com). It uses [TailwindCSS](https://tailwindcss.com) for utility first styling.
 
-It uses Node v16 (I recommend using [NVM](https://github.com/nvm-sh/nvm))
+It uses Node v16 (I recommend using [NVM](https://github.com/nvm-sh/nvm)), or [NVM for Windows](https://github.com/coreybutler/nvm-windows).
 
 ## Getting Started
 
