@@ -25,6 +25,7 @@
 
 {# -- Any <link> tags that should be included in the <head> #}
 {% block headLinks %}
+  <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
 {% endblock headLinks %}
 
 {# -- Any CSS that should be included before </head> -- #}
@@ -63,5 +64,6 @@
 {# -- Any JavaScript that should be included before </body> -- #}
 {% block bodyJs %}
 <script src="{{ mix('/js/manifest.js') }}"></script>
+<script src="{{ mix('/js/vendor.js') }}"></script>
 <script src="{{ mix('/js/app.js') }}"></script>
 {% endblock bodyJs %}
