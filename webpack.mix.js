@@ -9,7 +9,7 @@ mix.setPublicPath('public')
 mix.version()
 mix.extract(['lazysizes']);
 mix.options({
-  legacyNodePolyfills: true
+  legacyNodePolyfills: false
 });
 
 mix.twig("src/templates", "public")
@@ -25,6 +25,9 @@ if (!mix.inProduction()) {
   mix.sourceMaps();
   mix.webpackConfig(() => {
     return {
+      stats: {
+        children: false // change to true for more detail warnings
+      },
       plugins: [
         new BrowserSyncPlugin({
           host: 'localhost',

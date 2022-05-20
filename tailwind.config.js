@@ -1,6 +1,8 @@
 module.exports = {
   content: [
-    "./src/**/*.{js,ts,css,twig}",
+    "./src/templates/**/*.twig",
+    "./src/js/**/*.{js,ts}",
+    "./src/css/**/*.css",
   ],
   theme: {
     extend: {},
@@ -8,6 +10,5 @@ module.exports = {
   plugins: [
     require('@tailwindcss/typography'),
     require('@tailwindcss/aspect-ratio'),
-    require('@tailwindcss/forms'),
   ],
 }

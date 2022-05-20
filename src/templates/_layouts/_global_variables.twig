@@ -10,12 +10,14 @@
 └─────────────────────────────────────────────────────────────────────────────┘
 #}
 
-
 {# -- Prefetch & preconnect headers and links -- #}
-{% set siteUrl = "http://localhost:8080"%}
+{% set siteUrl = 'http://localhost:8080' %}
 
 {# -- General global variables -- #}
 {% set baseUrl = siteUrl ~ '/' %}
 
 {# -- Twig output from the render; this must be in a block -- #}
-{% endapply %}{% block htmlPage %}{% endblock %}
+{% endapply %}
+{% block htmlPage %}
+
+{% endblock %}
