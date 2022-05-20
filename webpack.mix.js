@@ -2,7 +2,6 @@
 const mix = require('laravel-mix')
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 require('@webrgp/laravel-mix-twig')
-require('laravel-mix-criticalcss')
 
 mix.disableSuccessNotifications()
 mix.setPublicPath('public')
